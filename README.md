@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://l0rdix.github.io/Advice-generator-app/)
-- Live Site URL: [Live Site](https://github.com/L0rdix/Advice-generator-app)
+- Live Site URL: [Site](https://l0rdix.github.io/Advice-generator-app/)
+- Solution URL: [Solution](https://github.com/L0rdix/Advice-generator-app)
 
 ## My process
 
