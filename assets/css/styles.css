@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root{
+    /* Primary */
+    --l-cyan: hsl(193, 38%, 86%);
+    --neon-green: hsl(150, 100%, 66%);
+
+    /* Neutral */
+    --gray-blue: hsl(217, 19%, 38%);
+    --d-g-blue: hsl(217, 19%, 24%);
+    --d-blue: hsl(218, 23%, 16%);
+
+    /* Font */
+    font-size: 28px;
+    font-weight: 800;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--d-blue);
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    flex-direction: column;
+}
+
+.container{
+    width: 24rem;
+    background-color: var(--d-g-blue);
+    border-radius: 14px;
+    padding: 20px;
+}
+
+.advicenumber{
+    color: var(--neon-green);
+    font-size: 20px;
+}
+
+#adviceTxt{
+    color: var(--l-cyan);
+}
+
+.adviceBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-30px);
+    cursor: pointer;
+}
+
+.Btn {
+    position: relative;
+    width: 63px;
+    height: 63px;
+    border-radius: 100%;
+    background-color: var(--neon-green);
+}
+
+.Btn:hover {
+    -webkit-box-shadow:0px 0px 50px 1px rgba(45,255,196,0.9);
+    -moz-box-shadow: 0px 0px 50px 1px rgba(45,255,196,0.9);
+    box-shadow: 0px 0px 50px 1px rgba(45,255,196,0.9);
+}
+  
+.Btn img {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;  
+}
+  
+.Btn.active{
+    color: blue;
+}
+
+.divider{
+    margin-bottom: 1.5rem;
+}
+
+#image-mobile{
+    display: none;
+}
+
+@media (max-width: 768px){
+    #image-pc{
+        display: none;
+    }
+
+    #image-mobile{
+        display: block;
+        margin-left: 2.7rem;
+    }
+
+    .container {
+      max-width: 450px;
+    }
+}
